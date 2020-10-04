@@ -57,13 +57,13 @@ namespace aspreact
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
-            app.UseCors(builder =>
-            {
-                builder
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
-            });
+            // app.UseCors(builder =>
+            // {
+            //     builder
+            //     .AllowAnyOrigin()
+            //     .AllowAnyMethod()
+            //     .AllowAnyHeader();
+            // });
 
             app.UseRouting();
 
